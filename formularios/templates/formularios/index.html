@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title>PRUEBA FORMULARIO</title>
+</head>
+<body>
+	<form action="/" method="POST">
+		{% csrf_token %}
+		{{ formulario }}
+		<input type="submit" value="Enviar"></input>
+	</form>
+</body>
+</html>
